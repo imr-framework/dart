@@ -1,10 +1,13 @@
 import nibabel as nb
-import numpy as np
 
-from dart.utils.plot3d import plot3d
+from dart.utils.maskplot3d import maskplot3d
 
-path = '/Users/sravan953/Documents/CU/Projects/imr-framework/DART/Data/MICCAI_BraTS_2018_Data_Training/HGG/Brats18_2013_5_1/Brats18_2013_5_1_t2.nii.gz'
-path = '/Users/sravan953/Documents/CU/Projects/imr-framework/DART/Data/DART_Nifti_seg/HGG/Brats18_2013_5_1.nii.gz'
-v = nb.load(path)
-n = v.get_fdata()
-plot3d(n)
+subject = 'Brats18_TCIA10_103_1'
+path = r"C:\Users\sravan953\Documents\CU\Projects\imr-framework\DART\Data\4MICCAI_2020\DART_Nifti_reg\LGG\{}\{}_t1.nii.gz".format(
+    subject, subject)
+mask_path = r"C:\Users\sravan953\Documents\CU\Projects\imr-framework\DART\Data\4MICCAI_2020\DART_Nifti_seg\LGG\{}.nii.gz".format(
+    subject)
+
+vol = nb.load(path).get_fdata()
+mask = nb.load(mask_path).get_fdata()
+maskplot3d(vol, mask)

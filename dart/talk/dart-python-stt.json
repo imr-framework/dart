@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dart-2020",
+  "private_key_id": "28694c28c42c8859728968f6aa4a0300801cadfb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDrzMJQ7pdgBxkW\nxZ/E3nfBWBXuEPbiuHMrzymOS+QG5SOw8fs8Ky97WJRzWQjp6WJUdbgyZNvARdy2\n8eJ63d5onvlBnFEXk32gXMiNezlw6klLhCFCZdSchma0CgvD3hazVkJXFzwEm6fA\n8dL/nJfF70FGZ4jLwzWk0Lk3XbiLAwb316hexOYuN6q/ptvFaJp+dcCR63OgffUX\ngqfLt22iu0buUFy3wA892hvyWi6fR1DwqnviIDYQLMTR0SbV7irf4hE/MNGPNnsW\nj0YxqzGWD2d+0tvdDnIYLDCXdPYQHlzpdExe/TWQBoQGoU+t+IEZ5wrzLbCbED2q\n5vbJRrUdAgMBAAECggEAEuPlOEsY7Ow8pg6geUrSQLbAEQGiabDZpyuSOnBZfPTr\n6k/EbwJNrD3BLMl39ZdJFZeVsVHTqgBeyXgwyuON3wdHVCqD85XRBWERfwYdaK6Y\nPxi/elyCjySUQz2fyin3Wxggue3mVL8sjgBBhVFD9msvqUZ/lsVVfZXsFKOpNleZ\nHvANijaXlGCahnQHW92CinxBulpEmoL/xq4gVMpkNlFoqVBu+NyBZNO2VaPzvc59\nqRtDr4YmERjWzu+NgdqnE4tdnqRXGTDEqBMjDgOaGV7OdSRL0yHrTfZYYZp2Q96p\ndrMJ0fcDAx9Hp3iKtRs2RkwqTOSkK8+++BmJs2ce0QKBgQD52AAMmG8+z9x3S35s\n6cJpp86suuG5hpeBJF/S9LNvTKkgE+GNIBpDwcawFg5tbN5LVd4Pj6JL1L8NZHrP\nB89Dcqhwb/CxLpZ820cwW8buPKAAEk4qYfK3YeBS7pVhSEnkvFKlO3uXAoAOGZly\nGqO3BZVVfcXQ6WdwjojHXtVT8QKBgQDxnCuyC35drqFF9IoPEzFXz0/fbigFX1EQ\nXJuYnRpNBiLHoInVifKBcHEIJ4SaF1+4/IdRChRrT6f9I9CJi2KryLmszdaitda+\n0LDmX3WMhtKgPlfDUXSrfiFUrBAEnm/G3mvT06JWkKGxC/7lsu5sp9HhfFUcRJN3\np6x3XQrv7QKBgATWduHHjdfkhHtW3eLT/+y10B2uHLLP9V0NzEE0dckA7gFuAR8P\ncRLAzM0aEDt0MTW6OuuIN3dKbkyfFnWtzAidTr+mmz2DDmzqfg1kqYxxZhO6RwMx\nFFcSsRpJ/mB82tlwABWs+i6pYLtlKYB5HZRsqkCWh98MtfELAYECyBSxAoGBANuO\ngnqqTSwOvElY3niyhT15i+jLLp0rL/xBW7gE09i4wbRM49RkJjaQGndBihOJOBhf\niwwOr92QpmS4PhIv0vuuTWSGLQzxV3NRK+A9URHhlte9r30zsWUCGoHaVjgMTiEX\nED+Pa09k4TqFXx4XSuj8XBKfLKyieKvceDKEH6NFAoGAJFWCaq/3fRYgNVN1slcr\n7jOV8DwUt6kq3nVdOwAxGwfydHX8UdhQs8LSgAGC3pZ/koG50Ic06L+z1MkZBh78\njFlkjeFQyo6DohwHvYJZCmWNyBHSExtyUv2aVEZgpmvnwzmSNjDV520GJUNVKzte\nGdCddr3ZP0E8DknerWZBQQs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dart-python-stt@dart-2020.iam.gserviceaccount.com",
+  "client_id": "113265311400662499469",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dart-python-stt%40dart-2020.iam.gserviceaccount.com"
+}

@@ -12,10 +12,10 @@ from __future__ import absolute_import, print_function
 
 import time
 
-from train import NetFactory
-from util.data_loader import *
-from util.parse_config import parse_config
-from util.train_test_func import *
+from brats17.train import NetFactory
+from brats17.util.data_loader import *
+from brats17.util.parse_config import parse_config
+from brats17.util.train_test_func import *
 
 
 def test(config_file):
@@ -302,6 +302,7 @@ def test(config_file):
     margin = config_test.get('roi_patch_margin', 5)
 
     for i in range(image_num):
+        print(f'{i + 1}/{image_num}')
         [temp_imgs, temp_weight, temp_name, img_names, temp_bbox, temp_size] = dataloader.get_image_data_with_name(i)
         t0 = time.time()
         # 5.1, test of 1st network
@@ -440,12 +441,10 @@ def test(config_file):
         final_label = np.zeros(temp_size, np.int16)
         final_label = set_ND_volume_roi_with_bounding_box_range(final_label, temp_bbox[0], temp_bbox[1], out_label)
 
-        brats_test_file_path = '/Users/sravan953/Documents/CU/Projects/imr-framework/DART/Code/dart/dart/anisoconv_config/brats/test.txt'
         output_dir = os.path.join(save_folder, temp_name) + '.nii.gz'
         save_array_as_nifty_volume(final_label, output_dir)
-        print(temp_name)
     test_time = np.asarray(test_time)
     print('test time', test_time.mean())
-    # np.savetxt(save_folder + '/test_time.txt', test_time)
     sess.close()
-    return final_label
+
+test('config.txt')

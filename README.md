@@ -1,5 +1,9 @@
 # DART - Deep learning Assisted Radiology reporT
 
+Baselined on March 14, 2020:
+- Tumor locations reported by radiologist do not match DART locations
+- Potentially because registration is incorrect + segmentation of registered volumes are incorrect
+
 ## Datasets
 1. Multimodal Brain Tumor Segmentation Challenge  2018 - https://www.med.upenn.edu/sbia/brats2018/data.html
 2. Total Intracranial Vault (TICV) BC2 Atlases - https://my.vanderbilt.edu/masi/about-us/resources-data/

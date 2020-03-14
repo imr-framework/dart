@@ -7,6 +7,7 @@ import tensorflow as tf
 # =========
 # LOAD TEST DATA
 # =========
+# Load report feature vector only to get list of subjects
 print('Loading data...')
 path = '/Users/sravan953/Documents/CU/Projects/imr-framework/DART/Data/Girish_reports'
 with open(os.path.join(path, 'report_feature_vector.p'), 'rb') as p:
